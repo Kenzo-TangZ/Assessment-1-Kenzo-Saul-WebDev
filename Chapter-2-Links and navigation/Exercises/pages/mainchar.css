@@ -1,0 +1,61 @@
+<style>
+
+body {font-family:'Josefin Sans';
+    font-weight: normal;
+    font-style: normal;
+    background-color: #1a1a1a;}
+
+h1 {text-align: center;
+    Color: #000000;
+    background-color:#545454;
+    border-radius: 50px;
+    line-height: 70px;
+    font-family: 'Josefin Sans';
+    font-weight: bold;}
+
+nav {background-color: #942e2e;
+    width:100%;
+    top: 0;
+    font-family: 'Josefin Sans';
+    border-radius: 5px;}
+
+.list {display: flex;
+    padding: 10px 0;
+    justify-content: center;
+    list-style-type: none;}
+
+.link {color: #000000;
+    text-decoration: none;
+    margin: 20px;}
+
+.link:hover {background-color: #b84444;
+    padding: 10px;
+    border-radius: 10px;
+    color:darkred;}
+
+.mainchar {text-align: center;
+    background-color:antiquewhite;
+    padding: 20px 150px;
+    margin: 20px auto;
+    border-radius: 30px;
+    font-family: 'Josefin Sans';
+    color: #000000;
+    list-style-type: none;
+    border: 5px solid #942e2e;}
+
+
+footer {text-align: center;
+    padding: 20px;}
+
+.button {font-family: 'Josefin Sans';
+    background-color: #942e2e;
+    border-radius: 70px;
+    text-decoration: none;
+    color: black;
+    padding: 15px 30px}
+
+.button:hover {background-color:#b84444;
+    color: darkred;
+    font-size: 14px;}
+          
+</style>

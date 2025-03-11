@@ -1,0 +1,26 @@
+<style>
+
+body {background-color:aqua;}
+
+h1 {text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 60px;}
+
+p {text-align: center;
+   font-family: 'Courier New', Courier, monospace;
+   margin-bottom: 55px;}
+
+span {color: crimson;}
+
+.Brussels {text-align: center;
+           font-family: 'Courier New', Courier, monospace;
+           filter: sepia(100%);} 
+
+.Celery {text-align: center;
+         font-family: 'Courier New', Courier, monospace;
+         filter: saturate(3000%);}
+
+.Ginger {text-align: center;
+         font-family: 'Courier New', Courier, monospace;
+         filter: invert(70%);}
+</style>
