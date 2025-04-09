@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Tiny5&display=swap" rel="stylesheet"> <!-- Font from Google -->
+    <title>Petrol Calculator</title>
+</head>
+<body>
+    <h1 id="title">Petrol Calculator</h1>
+    
+    <div id="literinput">
+        <h3 id="PETPERLIT">Petrol per liter price</h3> <!-- Text to label petrol per liter price -->
+        <input type="number" value="1.72" min="1.72" name="PPL" id="PPL" ><br> <!-- Input tag for petrol per liter price -->
+        <h3 id="LITPER">Liters purchased</h3> <!-- Text to label liters purchased -->
+        <input type="number" value="0" min="0" name="LP" id="LP" "> <!-- Input tag for liters purchased-->
+    </div><br>
+    
+    
+    <div id="button">
+        <button onclick="petrol()" id="Calculate" ca>Calculate</button> <!-- Button calling on petrol function -->
+    </div>
+    
+
+    <p id="petrolammount">Total price: $</p> <!-- P tag to display total price-->
+
+
+    <script type="text/javascript"> //script tag 
+        function petrol(){
+            var PPL = document.getElementById('PPL').value; //defines the variable PPL for petrol per liter
+            var LP = document.getElementById('LP').value; //defines the variable LP for liters purchased 
+            var total = (PPL*LP); //defines the variable total to be called on later to print
+
+            document.getElementById('petrolammount').innerHTML = "Total price: $"+ total.toFixed(2); //command to print out total price
+            
+        }
+    </script>
+
+    
+</body>
+</html>

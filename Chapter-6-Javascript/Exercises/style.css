@@ -1,0 +1,93 @@
+
+/* Calls on body tag for styling */
+body {
+    background-image: url(carbg.jpg);
+    font-family: Tiny5, sans-serif;
+    font-weight: lighter;
+}
+
+/* Calls on h1 tag with id name "title" for styling */
+#title {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 15px;
+}
+
+/* Calls on div tag with id name "literinput" for styling */
+#literinput {
+    text-align: center;
+    background-color:beige;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 800px;
+    border-radius: 20px;
+    border: 1px solid ;
+    overflow: hidden;
+    margin: auto;
+}
+
+/* Calls on input tag with id name "PPL" for styling */
+#PPL {
+    font-size: 25px;
+    font-family: Tiny5, sans-serif;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Calls on h3 tag with id name "PETPERLIT" for styling */
+#PETPERLIT {
+    font-size: 25px;
+    color:goldenrod;
+}
+
+/* Calls on input tag with id name "LP" for styling */
+#LP {
+    font-size: 25px;
+    font-family: Tiny5, sans-serif;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Calls on h3 tag with id name "LITPER" for styling */
+#LITPER {
+    font-size: 25px;
+    color:goldenrod;
+}
+
+/* Calls on div tag with id name "button" for styling */
+#button {
+    text-align: center;
+}
+
+/* Calls on button tag in div with id name "button" for styling */
+#button button {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid ;
+    font-family: Tiny5, sans-serif;
+    background-color: beige;
+    font-size: 15px;
+}
+
+/* Calls on button tag in div with id name "button" for hover styling */
+#button button:hover {
+    background-color: gold;
+}
+
+/* Calls on button tag in div with id name "button" for active styling */
+#button button:active {
+    background-color: goldenrod;
+}
+
+/* Calls on p tag with id name "petrolammount" for styling */
+#petrolammount {
+    background-color: beige;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 250px;
+    margin: auto;
+    margin-top: 15px;
+}
